@@ -34,7 +34,7 @@ public class ModItems {
     public static final Block WATERORE = registerBlock("waterore", Block::new, Block.Settings.create().strength(3.0f).requiresTool());
     public static final Block WINDORE = registerBlock("windore", Block::new, Block.Settings.create().strength(3.0f).requiresTool());
 
-    public static final Item CUSTOMZOMBIESPAWNEGG = registerItem("customzombiespawnegg", settings -> new SpawnEggItem(),  new Item.Settings());
+    public static final Item CUSTOMZOMBIESPAWNEGG = registerItem("customzombiespawnegg", settings -> new SpawnEggItem(ModEntities.CUSTOM_ZOMBIE, 0x0000ff,0x7a7a7a, settings),  new Item.Settings());
     
     public static final RegistryKey<PlacedFeature> CUSTOMTHUNDERORE = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("stones","customthunderore"));
     public static final RegistryKey<PlacedFeature> CUSTOMFIREORE = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("stones","customfireore"));
@@ -63,6 +63,7 @@ public class ModItems {
         entries.add(FIREORE);
         entries.add(WATERORE);
         entries.add(WINDORE);
+        entries.add(CUSTOMZOMBIESPAWNEGG);
     }
 
     private static void customIngredientsCombat(FabricItemGroupEntries entries){
