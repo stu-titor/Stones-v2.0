@@ -1,0 +1,18 @@
+{
+  "block.stones.thunderore": "Thunderstone Ore",
+  "item.stones.thunderstone": "Thunderstone",
+  "item.stones.thunderstaff": "Thunderstaff",
+  "block.stones.fireore": "Firestone Ore",
+  "item.stones.firestone": "Firestone",
+  "item.stones.firestaff": "Firestaff",
+  "item.stones.waterstone": "Waterstone",
+  "item.stones.waterstaff": "Waterstaff",
+  "block.stones.waterore": "Waterstone Ore",
+  "item.stones.windstone": "Windstone",
+  "item.stones.windstaff": "Windstaff",
+  "item.stones.coppersword": "Copper Sword",
+  "item.stones.copperpickaxe": "Copper Pickaxe",
+  "item.stones.copperaxe": "Copper Axe",
+  "item.stones.coppershovel": "Copper Shovel",
+  "block.stones.windore": "Windstone Ore"
+}
