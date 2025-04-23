@@ -34,6 +34,8 @@ public class ModItems {
     public static final Block WATERORE = registerBlock("waterore", Block::new, Block.Settings.create().strength(3.0f).requiresTool());
     public static final Block WINDORE = registerBlock("windore", Block::new, Block.Settings.create().strength(3.0f).requiresTool());
 
+    public static final Item CUSTOMZOMBIESPAWNEGG = registerItem("customzombiespawnegg", settings -> new SpawnEggItem(),  new Item.Settings());
+    
     public static final RegistryKey<PlacedFeature> CUSTOMTHUNDERORE = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("stones","customthunderore"));
     public static final RegistryKey<PlacedFeature> CUSTOMFIREORE = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("stones","customfireore"));
     public static final RegistryKey<PlacedFeature> CUSTOMWATERORE = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifier.of("stones","customwaterore"));
