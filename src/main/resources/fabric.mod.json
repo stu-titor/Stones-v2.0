@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "stones",
+  "version": "${version}",
+  "name": "stones",
+  "description": "TMs for cobblemon",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stones/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "stu.stones.client.StonesClient"
+    ],
+    "main": [
+      "stu.stones.Stones"
+    ]
+  },
+  "mixins": [
+    "stones.mixins.json",
+    {
+      "config": "stones.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+
+}

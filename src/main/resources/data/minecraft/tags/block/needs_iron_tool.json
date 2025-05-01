@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "stones:thunderore",
+    "stones:waterore",
+    "stones:windore",
+    "stones:fireore"
+  ]
+}

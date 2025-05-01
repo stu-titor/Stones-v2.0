@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+      "stones:waterstone",
+      "minecraft:stick"
+  ],
+  "result": {
+    "id": "stones:waterstaff",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "stones:copperpickaxe",
+    "count": 1
+  }
+}
