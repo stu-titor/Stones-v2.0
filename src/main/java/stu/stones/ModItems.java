@@ -25,8 +25,8 @@ public class ModItems {
     public static final Item WATERSTAFF =  registerItem("waterstaff",WaterStaffItem::new, new Item.Settings().maxDamage(64));
     public static final Item WINDSTAFF =  registerItem("windstaff",WindStaffItem::new, new Item.Settings().maxDamage(64));
     public static final Item COPPERSWORD =  registerItem("coppersword",settings -> new SwordItem(ToolMaterial.IRON, 3, -2.4f, settings), new Item.Settings().maxDamage(32));
-    public static final Item COPPERPICKAXE=  registerItem("copperpickaxe",settings -> new PickaxeItem(ToolMaterial.IRON, 1, -2.8f, settings), new Item.Settings().maxDamage(32));
-    public static final Item COPPERAXE=  registerItem("copperaxe",settings -> new AxeItem(ToolMaterial.IRON, 4, -3.2f, settings), new Item.Settings().maxDamage(32));
+    public static final Item COPPERPICKAXE =  registerItem("copperpickaxe",settings -> new PickaxeItem(ToolMaterial.IRON, 1, -2.8f, settings), new Item.Settings().maxDamage(32));
+    public static final Item COPPERAXE =  registerItem("copperaxe",settings -> new AxeItem(ToolMaterial.IRON, 4, -3.2f, settings), new Item.Settings().maxDamage(32));
     public static final Item COPPERSHOVEL=  registerItem("coppershovel",settings -> new ShovelItem(ToolMaterial.IRON, 1, -2.8f, settings), new Item.Settings().maxDamage(32));
 
     public static final Block THUNDERORE = registerBlock("thunderore", Block::new, Block.Settings.create().strength(3.0f).requiresTool());
@@ -85,3 +85,4 @@ public class ModItems {
 
 
 }
+
